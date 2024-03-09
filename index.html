@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Frontend Developer - HTML , CSS & JAVASCRIPT</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/adobe_portfolio_folder_icon_133965 (2).png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <i id="hamburger" class="fa-solid fa-bars "></i>
+        <a href="mywork.html" class="logo">Port<span style="color:  rgb(228, 180, 92);;">folio</span></a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">Skills</a>
+            <a href="projects.html">My work</a>
+            <a href="#services">Services</a>
+            <a href="contact.html">Contact</a>
+
+            <!-- <a href="#">Education</a> -->
+            <!-- <a href="#contact">Contact</a> -->
+
+        </nav>
+    </header>
+    <section id="sectionToLink1" class="home">
+    
+        <div class="container">
+            <div class="home-content">
+                <h1>Hi, I am Rafay Raza</h1>
+                <h3>Frontend Developer</h3>
+                <p> I am a front-end developer who is passionate about creating enjoyable online user experiences. With
+                    my strong sense of design and skill for bringing ideas.I make websites that are visually appealing
+                    and functional.Currently an undergraduate student pursuing a bachelors degree in Computer Science
+                    from Iqra University. My areas of expertise include HTML, CSS, and JavaScript.I like the process of
+                    making static designs live and responsive on different devices. My professional background is
+                    undergraduate student. I have accumulated experience creating interactive web applications and
+                    enhancing user interfaces. As a result, I have developed my abilities to create unique and
+                    functional websites.Connect with me on LinkedIn or check out some of my work on GitHub.Let's explore
+                    opportunities, share ideas, or geek out over the latest in the tech world. Feel free to reach out I
+                    am just a message away!</p>
+                <div class="btn-box">
+                    <!-- <a href="#">Hire Me</a> -->
+                    <a id="resume" href="assets/Syed's Resume (1).pdf" class="download btn" download="resume">Download
+                        CV</a>
+                </div>
+            </div>
+    </section>
+    <section id="sectionToLink2">
+    
+         <div id="links" class="home-sci">
+
+            <a class="icon" href="#" onclick="openProfile('facebook')">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a class="icon" href="#" onclick="openProfile('linkedin')">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="icon" href="#" onclick="openProfile('instagram')">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="icon" href="#" onclick="openProfile('github')">
+                <i class="fab fa-github"></i>
+            </a>
+            <a class="icon" href="#" onclick="openProfile('whatsapp')">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+
+
+        </div> 
+        <span class="home-imgHover"></span>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="sectionToLink3">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets/WhatsApp Image 2024-02-25 at 03.52.51_f1f10020.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> My Skil<span>ls</span></h1>
+                        <p class="about-para">
+                            <!-- My name is Rafay Raza, and I am a dedicated Front-End Developer with a strong eye for detail. I
+                    am passionate about crafting captivating and user-friendly web experiences.My journey into the
+                    track of web development began with the aspiration of transforming ideas into visually appealing
+                    and interactive websites. My technical proficiencies include HTML, CSS, and JavaScript, the
+                    trifecta that forms the foundation of dynamic web applications.I am eager to apply my skills and
+                    expertise to your organization and contribute to your continued growth and success.I am eager to
+                    apply my skills and expertise to your esteemed organization and contribute to your continued
+                    growth and success. </p>  -->
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>HTML ,CSS & JAVASCRIPT</span><br>Designing Web interfaces
+                                </li>
+                                <li>
+                                    <span>Web Development</span><br>Responsive Web Design
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2024</span><br>Virtual Intern at <a
+                                        href="https://www.linkedin.com/company/codsoft/">CodSoft</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2022</span><br>Intermediate - Govt college Formen
+                                </li>
+                                <li>
+                                    <span>2023 - Present</span><br>Graduation - (BSCS) - Iqra University
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ends -->
+    <!-- services -->
+    <section id="sectionToLink4">
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My servi<span>ces</span></h1>
+            <div class="services-list">
+
+                <div>
+                    <i id="icons" class="fa-solid fa-code"></i>
+                    <h2>Web Des<span>ign</span></h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius magni quas nihil voluptate saepe
+                        asperiores voluptates dignissimos fugit hic consequuntur. Quas quasi atque assumenda,
+                        voluptatibus quia accusamus distinctio illum mi </p>
+                    <!-- <a href="#">Learn more</a> -->
+                    <img class="image" src="assets/design-removebg-preview.png" alt="">
+                </div>
+                <div>
+                    <h2 class="heading">Responsive Lay<span>out</span></h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius magni quas nihil voluptate saepe
+                        asperiores voluptates dignissimos fugit hic consequuntur. Quas quasi atque assumenda,
+                        voluptatibus quia accusamus distinctio illum mi </p>
+                    <!-- <a href="#">Learn more</a> -->
+                    <img class="image" src="assets/layout-removebg-preview.png" alt="">
+                </div>
+                <div>
+                    <h2 class="heading">Seo Optimiza<span>tion</span></h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius magni quas nihil voluptate saepe
+                        asperiores voluptates dignissimos fugit hic consequuntur. Quas quasi atque assumenda,
+                        voluptatibus quia accusamus distinctio illum mi </p> -->
+                     <!-- <a href="#">Learn more</a> -->
+                     <img class="image" src="assets/seo-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div> 
+    </section>
+    <!-- ends -->
+
+    <!-- contact -->
+
+   
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <i id="hamburger" class="fa-solid fa-bars "></i>
+        <a href="mywork.html" class="logo">Port<span style="color:  rgb(228, 180, 92);;">folio</span></a>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html#sectionToLink2">Skills</a>
+            <a href="projects.html#sectionTolink">My work</a>
+            <a href="index.html#sectionToLink4">Services</a>
+            <a href="contact.html">Contact</a>
+
+            <!-- <a href="#">Education</a> -->
+            <!-- <a href="#contact">Contact</a> -->
+
+        </nav>
+    </header>
+    <div id="contact" style="text-align: center;">
+        <div class="form">
+            <h1 ><pre>        Get In Touch:</pre></h1>
+             <form action="https://formspree.io/f/mzbnvvre"
+             method="POST" id="contactForm">
+                <input type="hidden" name="access_key" value="aa45d131-f118-4208-9b0c-996e98df36ea">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="button" >Submit -></button>
+            </form> 
+          
+          
+         </div>
+    </div>
+     <script src="script.js"></script> 
+    <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+</body>
+</html>

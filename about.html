@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Frontend Developer - HTML , CSS & JAVASCRIPT</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="assets/adobe_portfolio_folder_icon_133965 (2).png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header class="header">
+        <i id="hamburger" class="fa-solid fa-bars "></i>
+        <a href="#" class="logo">Port<span style="color:  rgb(228, 180, 92);;">folio</span></a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">My work</a>
+
+            <a href="#">Education</a>
+
+        </nav>
+    </header>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/Screenshot_2024-02-26-10-51-43-34_1c337646f29875672b5a61192b9010f9.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About<span>Me</span></h1>
+                    <p class="about-para">
+                        My name is Rafay Raza, and I am a dedicated Front-End Developer with a strong eye for detail. I
+                        am passionate about crafting captivating and user-friendly web experiences.My journey into the
+                        track of web development began with the aspiration of transforming ideas into visually appealing
+                        and interactive websites. My technical proficiencies include HTML, CSS, and JavaScript, the
+                        trifecta that forms the foundation of dynamic web applications.I am eager to apply my skills and
+                        expertise to your organization and contribute to your continued growth and success.I am eager to
+                        apply my skills and expertise to your esteemed organization and contribute to your continued
+                        growth and success. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>HTML ,CSS & JAVASCRIPT</span><br>Designing Web interfaces
+                            </li>
+                            <li>
+                                <span>Web Development</span><br>Responsive Web Design
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2024</span><br>Virtual Intern at <a
+                                    href="https://www.linkedin.com/company/codsoft/">CodSoft</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2022</span><br>Intermediate - Govt college Formen
+                            </li>
+                            <li>
+                                <span>2023 - Present</span><br>Graduation - (BSCS) - Iqra University
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
